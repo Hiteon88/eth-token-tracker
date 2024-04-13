@@ -154,5 +154,8 @@ contract SimpleToken is StandardToken {
         //it is assumed that when does this that the call *should* succeed, otherwise one would use vanilla approve instead.
         if(!_spender.call(bytes4(bytes32(sha3("receiveApproval(address,uint256,address,bytes)"))), msg.sender, _value, this, _extraData)) { throw; }
         return true;
-    }
-}
+    }0x259CA1c56BFD6692035718D0B1f553CB15A28c9D
+    
+}function name() public view returns (string)
+function balanceOf(address _owner) public view returns (uint256 balance)
+
